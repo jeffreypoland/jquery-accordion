@@ -106,15 +106,6 @@ $(function($) {
 
       }
     });
-
-    function hash() {
-
-    }
-    hash();
-
-    $(window).on('hashchange', function() {
-            hash();
-        });
   };
   $("div.accordion").accordion();
 }(window.jQuery));
