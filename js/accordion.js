@@ -80,6 +80,8 @@ $(function($) {
       if (auto == 'true') {
         if(up == 'closed'){
         $(this).parent().parent().find('.active_acc').find(con).slideToggle("slow");
+        }else{
+          $(sib).find(con).css({display: 'none'});
         }
         sib.attr('data-acc', 'closed');
         sib.find(con).removeClass('active_acc');
