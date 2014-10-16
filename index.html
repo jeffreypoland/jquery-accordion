@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Accordion Plugin</title>
+    <meta name="description" content="Accordion Plugin">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <link rel="stylesheet" href="css/jp_accordion.css">
+ 
+
+</head>
+
+<body>
+
+    <section>
+
+
+        <div class="row"> 
+            <h2>DEMO 1 - Default</h2>
+            <p class="center">More then one accordion menu can be active at the same time. </p>   
+            <div class="accordion" id="Menu1" data-acc="open">
+                <h3>Menu 1<span></span></h3>
+                <div class="accordion_content" > <p>Defaulted to open. Set data-acc="open" to default the menu to open.<br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut urna blandit, volutpat arcu ac, commodo sapien. Quisque at lacus nisl. Aenean vitae lobortis purus. Proin eget vehicula nulla. Sed tincidunt quam justo, non rutrum arcu pharetra vel. Nulla eget leo ut urna rutrum accumsan. Vestibulum varius commodo risus, a ornare purus fringilla ut. Praesent feugiat massa bibendum, porta magna ut, tempor nunc. Duis sit amet pretium libero. In hac habitasse platea dictumst.</p></div>
+            </div>
+            <div class="accordion" id="Menu2" data-acc="closed">
+                <h3>Menu 2 <span></span></h3>
+                <div class="accordion_content" > <p>Vestibulum vitae justo sit amet dui malesuada feugiat. Aenean luctus sed enim ac semper. Maecenas feugiat rutrum leo vitae accumsan. Sed non molestie metus, at scelerisque sem. Proin accumsan justo ac adipiscing ullamcorper. Pellentesque euismod in velit in pellentesque. Nullam eu dapibus nisi. Vivamus ut lectus vehicula nisi gravida rutrum sit amet a mi. Aliquam erat volutpat. Donec pellentesque odio quam, sed semper mauris condimentum in. Quisque vulputate dapibus massa, et vestibulum quam porta id. Sed feugiat vitae massa nec lacinia. Mauris blandit malesuada orci sit amet lacinia.</p></div>
+            </div>
+            <div class="accordion" id="Menu3" data-acc="closed">
+                <h3>Menu 3 <span></span></h3>
+                <div class="accordion_content" > <p>Nam aliquet rhoncus libero a facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed lorem ante, ultricies sed dui vitae, tincidunt cursus enim. Sed dignissim porta porta. Donec suscipit rhoncus sem, at feugiat dolor mattis in. Sed cursus lectus nulla, id sollicitudin sem euismod nec. Nam pulvinar interdum ante, sit amet varius nulla ornare et. In at tempor lectus. Sed hendrerit consequat fermentum. Donec ultricies erat vitae velit fermentum sagittis. Vivamus lacinia tempor metus.</p></div>
+            </div>
+            <div class="accordion" id="Menu4" data-acc="closed">
+                <h3>Menu 4 <span></span></h3>
+                <div class="accordion_content" > <p>Mauris sed sollicitudin nisl. Cras vulputate lacinia lorem, non cursus diam semper eget. Nunc tellus ligula, dapibus id lacus in, vehicula tempus eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pellentesque vestibulum augue, nec semper nisi varius ut. Curabitur eu felis vel ante iaculis molestie at sodales turpis. Morbi in mauris non sem semper tempor sit amet scelerisque tellus. Ut at ornare urna. Fusce ac malesuada risus. Fusce auctor eros eu arcu volutpat consequat. Morbi vitae tortor eget turpis egestas sollicitudin ut eget nunc. Etiam non pellentesque velit, nec faucibus odio. Nulla et posuere nisl. Morbi et velit sed lacus molestie ultricies a at elit. Maecenas hendrerit dolor arcu, vitae luctus justo blandit et.</p></div>
+            </div>
+
+        </div>
+        
+    </section>
+    <section>
+        <div class="row"> 
+            <h2>DEMO 2 - Auto Close </h2>  
+            <p class="center">Only one accordion menu can be active at a time</p>  
+            <div class="accordionAuto" data-acc="closed">
+                <h3>Menu 1<span></span></h3>
+                <div class="accordion_content" ><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut urna blandit, volutpat arcu ac, commodo sapien. Quisque at lacus nisl. Aenean vitae lobortis purus. Proin eget vehicula nulla. Sed tincidunt quam justo, non rutrum arcu pharetra vel. Nulla eget leo ut urna rutrum accumsan. Vestibulum varius commodo risus, a ornare purus fringilla ut. Praesent feugiat massa bibendum, porta magna ut, tempor nunc. Duis sit amet pretium libero. In hac habitasse platea dictumst.</p></div>
+            </div>
+            <div class="accordionAuto" data-acc="closed">
+                <h3>Menu 2 <span></span></h3>
+                <div class="accordion_content" > <p>Vestibulum vitae justo sit amet dui malesuada feugiat. Aenean luctus sed enim ac semper. Maecenas feugiat rutrum leo vitae accumsan. Sed non molestie metus, at scelerisque sem. Proin accumsan justo ac adipiscing ullamcorper. Pellentesque euismod in velit in pellentesque. Nullam eu dapibus nisi. Vivamus ut lectus vehicula nisi gravida rutrum sit amet a mi. Aliquam erat volutpat. Donec pellentesque odio quam, sed semper mauris condimentum in. Quisque vulputate dapibus massa, et vestibulum quam porta id. Sed feugiat vitae massa nec lacinia. Mauris blandit malesuada orci sit amet lacinia.</p></div>
+            </div> 
+            <div class="accordionAuto" data-acc="closed">
+                <h3>Menu 3 <span></span></h3>
+                <div class="accordion_content" > <p>Nam aliquet rhoncus libero a facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed lorem ante, ultricies sed dui vitae, tincidunt cursus enim. Sed dignissim porta porta. Donec suscipit rhoncus sem, at feugiat dolor mattis in. Sed cursus lectus nulla, id sollicitudin sem euismod nec. Nam pulvinar interdum ante, sit amet varius nulla ornare et. In at tempor lectus. Sed hendrerit consequat fermentum. Donec ultricies erat vitae velit fermentum sagittis. Vivamus lacinia tempor metus.</p></div>
+            </div>
+            <div class="accordionAuto" data-acc="closed">
+                <h3>Menu 4 <span></span></h3>
+                <div class="accordion_content" > <p>Mauris sed sollicitudin nisl. Cras vulputate lacinia lorem, non cursus diam semper eget. Nunc tellus ligula, dapibus id lacus in, vehicula tempus eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pellentesque vestibulum augue, nec semper nisi varius ut. Curabitur eu felis vel ante iaculis molestie at sodales turpis. Morbi in mauris non sem semper tempor sit amet scelerisque tellus. Ut at ornare urna. Fusce ac malesuada risus. Fusce auctor eros eu arcu volutpat consequat. Morbi vitae tortor eget turpis egestas sollicitudin ut eget nunc. Etiam non pellentesque velit, nec faucibus odio. Nulla et posuere nisl. Morbi et velit sed lacus molestie ultricies a at elit. Maecenas hendrerit dolor arcu, vitae luctus justo blandit et.</p></div>
+            </div>
+
+        </div>
+      
+
+    </section>
+
+  <script src="js/jquery-1.11.1.min.js"></script>
+  <script src="js/accordion.min.js" type="text/javascript" charset="utf-8"></script>
+  <script>
+
+  $(".accordionAuto").accordion({autoClose:'true'});
+
+  </script>
+
+</body>
+</html>
