@@ -30,7 +30,7 @@ jQuery Accordion creates a lightweight accordion menu.
 
      <!- Link jQuery ->
      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
- 	 <!- Link Curtail ->
+ 	 <!- Link Accordion.js ->
 	 <script src="js/accordion.min.js" ></script>
 
 	 </body>
