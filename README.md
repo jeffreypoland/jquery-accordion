@@ -18,6 +18,7 @@ jQuery Accordion creates a lightweight accordion menu.
     <body>
 
     <!- Accordion Setup ->
+    <!- Note: Setting data-acc="open" will default your menu to open ->
 	<div class="accordion" data-acc="open">
 		<h3>Menu 1 <span></span></h3>
 		<div class="accordion_content" > <p> Menu 1 content</p></div>
