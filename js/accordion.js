@@ -106,6 +106,7 @@ $(function($) {
 
       }
     });
+
   };
   $("div.accordion").accordion();
 }(window.jQuery));
