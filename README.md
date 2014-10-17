@@ -8,14 +8,7 @@ jQuery Accordion creates a lightweight accordion menu.
 - Include accordion.css
 
 => Use this HTML markup:
-=> HTML Settings
-
-	id = Setting an unique id on your accordion menu allows you the ability to add #yourUniqueId
-         to the end of your url and the accordion with that id will open.
-
-    data-acc = If you want the menu to be open by default set this to "open" if you want it 
-               to be closed set it to "closed"    
-
+ 
 ```html
     <head>
     <!- Link CSS ->
@@ -42,7 +35,13 @@ jQuery Accordion creates a lightweight accordion menu.
 
 	 </body>
 ```
+=> HTML Settings
 
+	id = Setting an unique id on your accordion menu allows you the ability to add #yourUniqueId
+         to the end of your url and the accordion with that id will open.
+
+    data-acc = If you want the menu to be open by default set this to "open" if you want it 
+               to be closed set it to "closed"   
 
 ##Options
 
